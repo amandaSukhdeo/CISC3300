@@ -1,0 +1,20 @@
+Amanda Sukhdeo 
+Internet and Web Programming 
+Spring 2024
+Homework 1
+
+1. What happens from the time a user puts a URL into their browser to when they are able to view a webpage? - Briefly define ISP, URL, DNS, web server.
+    1. The user types a URL (Uniform Resource Locator), such as google.com into a browser that is connected to the internet via an ISP (Internet Service Provider – a company that provides internet access to consumers and businesses). The URL specifies the exact resource the user wants to access and its location.
+    2. The browser contacts a network of servers called DNS (Domain Name System), which is like a phone book where each domain name is mapped to an IP address. The DNS translates the domain name into the corresponding IP address. 
+    3. This IP address is then sent back to the browser. Now, the browser can make the request to the server which has the IP address of the website. 
+    4. A web server is a computer that is constantly connected to the web and is set up especially to send web pages to users. The HTML code for the website is stored on a web server, which can be accessed through an IP address. 
+    5. The web server sends the HTML source code for the website back to the browser where the website can be displayed. 
+
+2. What is html? What does it do?
+    HTML stands for Hyper Text Markup Language and is a language that the browser uses to provide information to users, such as text, links, images, and videos. HTML is the most basic component from which all websites and applications from the web are built and it provides the structural foundation for every web page.
+
+3. Access https://www.fordham.edu/. In your own words, describe how this webpage uses structure to convey meaning and navigation options to the user.
+    The fordham.edu website has a header with the university's name that clearly conveys to the viewer/reader what the website's content is about. The search feature, as well as the table of contents allows us to find information on the site easily and links to other content. The breaks and division into subsections organizes the information provided on the page. The first section provides us with recent news articles published in the university, the second gives us information and links to the different campuses, the third section provides us with information about Fordham's Jesuit values, etc. Subheadings and bolded text emphasize important information while images illustrate information visually. Lastly, the footer at the bottom of the page provides links to different social media platforms that can be used to connect with the university and other helpful links. 
+
+4. What is an html element? Tag? Attribute?
+    HTML code is made up of characters that live inside angled brackets; these are called HTML elements. Elements are made up of an opening <> and closing </> tag and tells the browser something about the information that sits between them. HTML uses tags to give the information the surround special meaning. For example, the <html> tag indicates that anything between it and a closing </html> tag is HTML code. Attributes tell us more about a perticular element. They appear on the opening tag of an element and are made up of two parts: a name and a value. 
