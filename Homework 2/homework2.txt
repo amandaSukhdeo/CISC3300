@@ -1,0 +1,13 @@
+Amanda Sukhdeo
+Internet and Web Programming 
+Spring 2024
+Homework 2 
+
+1. Define structural vs semantic meaning in regard to HTML pages. 
+    Structural markup is the markup that structures the page's layout but doesn't necessarily convey any meaning. These are the elements used to describe both headings and paragrahs. Semantic markup is intended to convey meaning with the elment type, even if is indistinguishable from other elemnts visually. An example of structual vs semantic is <bold> vs <strong>. Bold simply bolds the text while strong looks the same as a bolded element but is given emphasis by a screen reader. 
+
+2. Why is it important to use correct HTML elements when designing web pages? 
+    It is important is use correct HTML elements when designing web pages because it helps search engines like Google to find websites based in their content. Addtionally, screen readers and other accessibility tools treat different elements differently. Using the right elements helps people accessing the website and assistive technolgies to navigate the web page more easily. 
+
+3. What are forms in html? What is their purpose? When would you use one?
+    HTML <form> is an element used to collect input data from users. Forms allow users to input text, numbers, values, email, password in various formats such as checkboxes, radio buttons, submit buttons, and so on. You can use a form for registering members of a website, signing them up for newsletters or mailing lists, saving their contact information, etc.
