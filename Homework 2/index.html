@@ -13,19 +13,25 @@
             </ul>
         </p>
         <h3>Create an account to easily keep track of the items on your shopping list!</h3>
-        <fieldset>
-            <legend>Create an account: </legend>
-            <label>Name: <br/>
-            <input type="text" name="name"/> </label> </br>
-            <label>Email: <br/> 
-            <input type="text" name="email"/></label> <br/> 
-            <label>Password: <br />
-                <input type="password" name="password" size="20" maxlength="30"/> </label>
-            <form action="http://www.example.com/profile.php">
-                <br/>
-                <input type="checkbox" name="consentAgreement" value="itunes"/> I consent to receiving emails from Fordham Road Supermarket. 
-            </form>
-        </fieldset>
+        <form action="http://www.example.com/profile.php" method="post">
+            <fieldset>
+                <legend>Create an account: </legend>
+                <label>Name: <br/>
+                    <input type="text" name="name"/> </label> </br>
+                <label>Email: <br/> 
+                    <input type="text" name="email"/></label> <br/> 
+                <label>Password: <br />
+                    <input type="password" name="password" size="20" maxlength="30"/> </label>
+                <form action="http://www.example.com/profile.php">
+                    <br/>
+                    <input type="checkbox" name="consentAgreement" value="itunes"/> I consent to receiving emails from Fordham Road Supermarket. 
+                </form>
+                <p></p>
+                <form action="http://www.example.com/createaccount.php">
+                    <input type="submit" name="createaccount" value="Create Account"/>
+                </form>
+            </fieldset>
+        </form>
         <div> 
             <h2>Fruits</h2>
             <p>At Fordham Road Supermarket, we are known for our wide variety of freshly picked fruits. Here's what we have in stock this season: </p>

@@ -11,3 +11,6 @@ Homework 2
 
 3. What are forms in html? What is their purpose? When would you use one?
     HTML <form> is an element used to collect input data from users. Forms allow users to input text, numbers, values, email, password in various formats such as checkboxes, radio buttons, submit buttons, and so on. You can use a form for registering members of a website, signing them up for newsletters or mailing lists, saving their contact information, etc.
+
+4. Define and contrast inline vs block elements. Where
+    Inline elements sit within a block level and always appear to continue on the same line as their neighboring elements. Examples of inline elements are <b> and <img>. Block elements always appear on a new line. Examples of block elements are <h1> and <p>. While a block-level element always takes up the full width available, inline elements only takes up as much width as necessary. An inline element also cannot contain a block-level element.
