@@ -1,0 +1,33 @@
+Amanda Sukhdeo
+Internet and Web Programming 
+Spring 2024 
+
+3. Compare and contrast margin, padding, and border.
+    Every box in HTML has three properties -- border, margin, and padding -- that can be 
+    adjusted to control it's appearance. The border of a box separates the edge of one box
+    from another. Thicker border = more space between boxes. Margins are outside 
+    of the edge of the border and the width can be set to create a gap between the borders of 
+    two adjacent boxes. Lastly, padding is the space between the border of a box and any content
+    contained within it. 
+
+4. Define the following flexbox css rules
+    https://css-tricks.com/snippets/css/a-guide-to-flexbox/:
+    a. display: flex
+        used to define a flex container and enables a flex context for all it's direct 
+        children. The container can be either inline or block based on the given value. 
+    b. flex-direction
+        defines the direction flex items are placed in the flex container, primarily in
+        either horizontal rows or vertical columns. 
+    c. flex-wrap
+        By default, flex items will all try to fit into one line. This can be changed using 
+        flex-wrap which allows the items to wrap as needed. It is possible to have nowrap(default), 
+        wrap, and wrap-reverse.   
+    d. justify-content/align-items
+        justify-content defines the alignment of flex items along the main axis (horizontal or 
+        vertical). It helps to distribute any leftover extra free space and control the alignment
+        of items when they overflow the line. 
+        align-items defines the default for how flex items are laid out along the cross axis on
+        the current line. Possible alignment option are start, end, center, stretch, and baseline. 
+    e. align-content
+        aligns a flex container's lines within when there is extra space in the cross-axis, similar
+        to how justify-content aligns individual items within the main-axis. 
