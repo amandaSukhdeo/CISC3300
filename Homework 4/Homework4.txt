@@ -29,6 +29,7 @@ language?
 OOP languages.
     An object is a collection of properties and a property is an association between a name (or key)
     and a value. A property's value can be a function, in which case the property is known as a 
-    method. Objects in javascript differ from objects in more traditional OOP languages by being more 
-    flexible and dynamic, allowing properties to be added or removed at runtime. 
+    method. Unlike other OOP languages, where classes inherit from other classes, javascript classes 
+    use prototypes for inhertiance, where objects can inherit properties and behaviors directly from 
+    other objects. 
 
