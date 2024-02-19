@@ -5,16 +5,16 @@ Homework 4
 
 1. What is javascript? How does an interpreted programming language differ from a compiled 
 language?
-    javaScript is a lightweight programming language commonly used by web developers 
+    JavaScript is a lightweight programming language commonly used by web developers 
     to add dynamic interactions to web pages, applications, servers, and even games. 
-    javaScript is an interpreted language, meaning that it is interpreted without compiling
+    JavaScript is an interpreted language, meaning that it is interpreted without compiling
     a program into machine instructions. The instructions are not directly executed by the 
     target machine, but instead read and executed by some other program (an interpreter). 
     In contrast, in compiled languages, such as C++ and Java, the compiled program is expressed 
     in the instructions of the target machine. This machine code is undecipherable by humans. 
 
 2. What is the difference between var, let, and const when declaring variables?
-    In javaScript, there are different keywords used to declare variables -- var, let, and const. 
+    In JavaScript, there are different keywords used to declare variables -- var, let, and const. 
     Variables declared with var can have a global or function scope and can be redeclared and 
     reassigned. Variables declared with let are block scoped -- a block in javaScript involves
     opening and closing curly braces. They can be reassigned to other values, but they cannot be 
@@ -29,6 +29,6 @@ language?
 OOP languages.
     An object is a collection of properties and a property is an association between a name (or key)
     and a value. A property's value can be a function, in which case the property is known as a 
-    method. Objects in javaScript differ from objects in more traditional OOP languages by being more 
+    method. Objects in javascript differ from objects in more traditional OOP languages by being more 
     flexible and dynamic, allowing properties to be added or removed at runtime. 
 
