@@ -1,0 +1,28 @@
+Amanda Sukhdeo 
+Internet and Web Programming 
+Spring 2024
+Homework 4
+
+1. What is HTTP? What are the different HTTP request methods and how do they differ?
+    HTTP (HyperText Transfer Protocol) facilitates the transfer of text, images, and 
+    other multimedia files between web servers and browsers. The four main HTTP request 
+    methods are:
+    Get – for retrieving data 
+    Post – for submitting data 
+    Put – for updating data 
+    Delete – for removing data 
+
+2. What is an API? What is JSON?
+    APIs are two mechanisms that enable browsers, scripts and websites to share 
+    functionality with other programs or sites. APIs all you to wrote code that 
+    will make a request, asking another program or script to so something, and 
+    allow you to specify the format in which the response will be given (so that 
+    it can be understood). 
+
+3. What is AJAX? What is meant by asynchronous code?
+    Ajax is a technique that allows you to request data from a server and load it 
+    without having to refresh the entire page; the data is often stored in JSON format. 
+    Ajax uses an asynchronous processing model. This means that the user can do other 
+    things while the browser is waiting for the data to load, speeding up the user experience. 
+
+
